@@ -34,7 +34,8 @@
       "argsIgnorePattern": "_"
     }],
     "camelcase": "off",
-    "@typescript-eslint/ban-ts-comment": "off"
+    "@typescript-eslint/ban-ts-comment": "off",
+    "@typescript-eslint/naming-convention": ["error", {"selector": "interface", "prefix": ["I"], "format": ["PascalCase"]}]
   },
   "settings": {
     "import/resolver": {
